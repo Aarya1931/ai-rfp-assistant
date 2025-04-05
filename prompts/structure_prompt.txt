@@ -10,7 +10,8 @@ Return a structured list of what's:
 Then conclude whether the proposal appears complete and ready for submission.
 
 RFP TEXT:
-{rfp}
-
+{{rfp}}
 COMPANY PROFILE:
-{company}
+{{company}}
+
+structure:

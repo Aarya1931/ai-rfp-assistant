@@ -20,18 +20,16 @@ Your job is to refine the provided raw proposal draft by performing the followin
 
 ---
 
-📄 Proposal Title: {title}
-🏛️ Issuing Agency: {agency}
-📁 RFP Number: {rfp_number}
+📄 Proposal Title: {{title}}
+🏛️ Issuing Agency: {{agency}}
+📁 RFP Number: {{rfp_number}}
 📜 RFP Format & Structure Requirements:
-{rfp_instructions}
-
+{{rfp_instructions}}
 🛠️ Improvement Suggestions:
-{improvements}
+{{improvements}}
 
 📝 Raw Proposal Draft:
-{draft}
-
+{{draft}}
 ---
 
 ✅ Polished & Final Proposal (Aligned with Government RFP Expectations):

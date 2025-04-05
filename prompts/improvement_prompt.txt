@@ -9,7 +9,9 @@ Focus on:
 - Making the proposal more compelling and complete
 
 RFP TEXT:
-{rfp}
+{{rfp}}
 
 COMPANY PROFILE:
-{company}
+{{company}}
+
+improvements:

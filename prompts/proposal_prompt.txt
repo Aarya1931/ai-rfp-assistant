@@ -21,16 +21,15 @@ You must:
 ---
 
 RFP Document:
-{rfp}
+{{rfp}}
 
 RFP Summary (Structured Info):
-{summary}
-
+{{summary}}
 Improvement Suggestions:
-{improvements}
+{{improvements}}
 
 Company Profile:
-{company}
+{{company}}
 
 ---
 

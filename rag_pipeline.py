@@ -41,7 +41,9 @@ def run_all(rfp_text, company_text):
         "draft": results["proposal_draft"],
         "title": "Proposal Title Here",
         "agency": "Agency Name",
-        "rfp_number": "RFP-1234"
+        "rfp_number": "RFP-1234",
+        'improvements': "improvements",
+        'rfp_instructions': "rfp_instructions"
     })
 
     return results

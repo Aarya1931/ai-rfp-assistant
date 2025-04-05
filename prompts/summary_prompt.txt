@@ -11,9 +11,9 @@ Your task is to deeply analyze the given RFP document in the context of the comp
 Respond in a structured format using Markdown headings and bullet points.
 
 RFP:
-{rfp}
+{{rfp}}
 
 Company Info:
-{company}
+{{company}}
 
 Output Summary:

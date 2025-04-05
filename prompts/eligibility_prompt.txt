@@ -11,9 +11,9 @@ Use this structure:
   - **Reason**: <clear justification>
 
 RFP Document:
-{rfp}
+{{rfp}}
 
 Company Profile:
-{company}
+{{company}}
 
 Eligibility Compliance Report:
