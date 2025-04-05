@@ -3,9 +3,12 @@ from langchain_ollama import OllamaLLM
 
 llm = OllamaLLM(model="llama3")
 
+from langchain_core.prompts import PromptTemplate
+
 def load_prompt(path):
-    with open(path) as f:
+    with open(path, encoding="utf-8") as f:
         return PromptTemplate.from_template(f.read())
+
 
 def run_all(rfp_text, company_text):
     results = {}
