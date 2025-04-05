@@ -1,0 +1,19 @@
+You are a compliance analyst for government RFPs.
+
+Your task is to:
+- Extract every eligibility requirement from the RFP.
+- Cross-verify each requirement against the company profile.
+- Output a bullet-pointed compliance report showing "Eligible" or "Not Eligible" per point with reasoning.
+
+Use this structure:
+- **Requirement**: <eligibility condition>
+  - **Status**: Eligible / Not Eligible
+  - **Reason**: <clear justification>
+
+RFP Document:
+{rfp}
+
+Company Profile:
+{company}
+
+Eligibility Compliance Report:
