@@ -31,6 +31,8 @@ def run_all(rfp_text, company_text):
     proposal_prompt = load_prompt("prompts/proposal_prompt.txt")
     results["proposal_draft"] = (proposal_prompt | llm).invoke({
         "summary": results["summary"],
+        "rfp": rfp_text,
+        "improvements": results["improvement"],
         "company": company_text
     })
 
