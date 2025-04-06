@@ -13,6 +13,7 @@ You must:
 3. Ensure the final proposal reflects:
    - Clear understanding of the agency's objectives and priorities.
    - Strategic alignment with the evaluation criteria.
+   - Also verify costs
    - Smart incorporation of **recommendations and improvement points** to increase the chance of selection.
 4. If any information is missing from the RFP, infer responsibly and clearly label assumptions.
 5. Do **not** use a generic structure or static template — only what the RFP mandates.

@@ -5,6 +5,7 @@ The suggestions should focus on:
 - Addressing any soft weaknesses or perceived gaps
 - Enhancing alignment with the RFP's goals or evaluation criteria
 - Highlighting key strengths in a way that stands out
+- address the potential risk and flaws in rfps which hinder company in future 
 
 RFP TEXT:
 {rfp}

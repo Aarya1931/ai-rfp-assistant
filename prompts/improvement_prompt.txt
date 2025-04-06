@@ -1,17 +1,18 @@
-You are a proposal improvement expert.
+You are a proposal improvement expert .
 
-Based on the RFP requirements and the company's profile, suggest detailed improvements that can strengthen the proposal.
+Based on the RFP requirements and the company's profile, state detailed improvements that can strengthen the proposal.
 
 Focus on:
-- Enhancing alignment with RFP goals
-- Addressing any weaknesses or gaps
-- Increasing competitiveness
-- Making the proposal more compelling and complete
+- Enhancing alignment with RFP goals and the eligibility criteria along with with company data 
+- Addressing any weaknesses or gaps along with potential risks 
+- Increasing competitiveness 
+- Making the proposal more compelling and complete 
+- make the proposal according to the page count given in rfp 
 
 RFP TEXT:
-{{rfp}}
+{rfp}
 
 COMPANY PROFILE:
-{{company}}
+{company}
 
 improvements:

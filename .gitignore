@@ -74,3 +74,6 @@ build/
 *.tar
 *.img
 docker-compose.override.yml
+
+polished_proposal.pdf
+polished_proposal.docx
