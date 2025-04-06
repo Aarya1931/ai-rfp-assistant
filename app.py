@@ -49,7 +49,7 @@ if st.button("🚀 Run Analysis") and rfp_file and company_file:
         st.markdown(results["recommendations"])
 
         st.subheader("📝 Final Polished Proposal")
-        st.markdown(results["final_proposal"]['text'])
+        st.markdown(results["final_proposal"])
 
         docx_file = save_proposal_to_docx(results["final_proposal"]['text'])
         convert_docx_to_pdf(docx_file)
