@@ -37,7 +37,7 @@ def run_all(rfp_text, company_text):
     })
 
     polish_prompt = load_prompt("prompts/polish_prompt.txt")
-    results["final_proposal"] = (polish_prompst | llm).invoke({
+    results["final_proposal"] = (polish_prompt | llm).invoke({
     "agency": agency,
     "rfp_number": rfp_number,
     "title": title,
