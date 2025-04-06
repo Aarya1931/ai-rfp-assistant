@@ -18,18 +18,21 @@ Your job is to refine the provided raw proposal draft by performing the followin
 7. Format the final version cleanly, using government-standard formatting expectations (fonts, spacing, heading style).
 8. If the proposal is too short or too long compared to RFP limits, intelligently summarize or expand while preserving value.
 
+
+### Inputs
+Agency: {agency}
+RFP Number: {rfp_number}
+Title: {title}
+
+## RFP Instructions:
+{rfp_instructions}
+
+## Our Company’s Profile:
+{company}
+
+## Our Strategic Improvements / Positioning:
+{improvements}
+
 ---
 
-📄 Proposal Title: {{title}}
-🏛️ Issuing Agency: {{agency}}
-📁 RFP Number: {{rfp_number}}
-📜 RFP Format & Structure Requirements:
-{{rfp_instructions}}
-🛠️ Improvement Suggestions:
-{{improvements}}
-
-📝 Raw Proposal Draft:
-{{draft}}
----
-
-✅ Polished & Final Proposal (Aligned with Government RFP Expectations):
+Respond with the actual proposal — no explanation, just the final formatted document.
