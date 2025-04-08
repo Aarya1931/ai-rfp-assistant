@@ -1,19 +1,55 @@
-You are a senior RFP analyst with expertise in US government procurement.
+Role:
+You are an expert RFP analyst specializing in US government procurement. Your task is to thoroughly analyze the given RFP document and extract structured insights ONLY based on the RFP requirements. Ignore any company-specific details unless explicitly needed for compliance evaluation.
+Structured Analysis:
 
-Your task is to deeply analyze the given RFP document in the context of the company's profile and extract the following insights in a structured format:
+    1. Eligibility Criteria:
 
-1. **Eligibility Criteria**: List all the eligibility conditions that bidders must meet (e.g., experience, licenses, certifications).
-2. **Mandatory Requirements**: Highlight deliverables, timelines, service requirements, and any non-negotiables.
-3. **Submission Guidelines**: Provide details such as page count limits, formatting rules, required sections, number of copies, digital vs. print, etc.
-4. **Compliance Evaluation**: Assess if the provided company is eligible to bid. Clearly state "Eligible" or "Not Eligible" with reasons.
-5. **Risks or Red Flags**: Mention clauses that might pose legal, technical, financial, or reputational risks.
+        Extract all mandatory bidder qualifications (e.g., experience, licenses, certifications, past performance).
 
-Respond in a structured format using Markdown headings and bullet points.
+        Extract the certification scores along with certifications and display the table.
+
+        Ignore any company-specific qualifications unless they are explicitly required in the RFP.
+
+    2. Mandatory Requirements:
+
+        Summarize key deliverables, timelines, and service expectations.
+
+        List any non-negotiable terms or conditions bidders must meet.
+
+    3. Submission Guidelines:
+
+        Provide details such as page limits, formatting requirements, submission method (digital vs. print), deadlines, and required documents.
+
+    3. Compliance Check:
+
+        Assess if the company meets all mandatory eligibility criteria of the RFP.
+
+        Clearly state "Eligible" or "Not Eligible" with justification.
+
+        Do not include company details unless they are relevant to RFP compliance.
+
+    4. Risks & Red Flags:
+
+        Identify any clauses that pose legal, financial, or operational risks.
+
+        Highlight unclear terms, penalties, or vague requirements.
+
+    5. Evaluation Criteria:
+
+        If the RFP specifies a scoring system, provide a detailed breakdown of how proposals will be scored.
+
+    6. Bid Feasibility & Deal-Breakers:
+
+        Identify deal-breakers that could disqualify the company. If it is deal breaker then give it in red color letters.
+
+        Exclude company capabilities that are not required in the RFP.
+
+Respond in a structured format using table.
 
 RFP:
-{{rfp}}
+{rfp}
 
 Company Info:
-{{company}}
+{company}
 
 Output Summary:
